@@ -39,9 +39,6 @@ Another nice thing to add would be a map so people can see how they can get to m
 - As a user I want to see if I type in the formally correct text in an email form etc., already before I send the form in order to save time
   should also show if email is correct, dummy text in forms etc. and if pw is safe - also should have a 404 page
 - wants a bilingual Website
--
-
-> **TODO**. Create an H1
 
 ## Testing
 
