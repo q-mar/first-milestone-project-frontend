@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,19 +10,68 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbarResponsive">
     <!-- Start Home Section -->
-    <!-- Start Nav -->
-    <!-- End Navigation -->
+    <section id="home" class="offset">
+      <!-- Navigation -->
+
+      <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navigation -->
+      <!-- End Home -->
+    </section>
+
     <!-- Start About -->
+    <section id="about" class="offset"></section>
     <!-- End About -->
+
     <!-- Start Work -->
+    <section id="work" class="offset"></section>
     <!-- Start Skills -->
+    <section id="skills" class="offset"></section>
     <!-- End Skills -->
     <!-- Start Contact -->
+    <section id="contact" class="offset"></section>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -39,5 +88,11 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+
+    <!-- still add validator.js, custom.js, contact.js -->
   </body>
 </html>
