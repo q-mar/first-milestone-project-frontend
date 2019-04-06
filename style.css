@@ -18,6 +18,7 @@ body {
 /*--- COLUMN PADDING --*/
 [class*="col-"] {
   padding: 2rem;
+  =======padding: 0.8rem;
 }
 
 /*============= NAVIGATION =============*/
@@ -48,6 +49,6 @@ body {
 /*============= LANDING =============*/
 
 .home-inner {
-  image: url("images/landing.png");
+  background-image: url("images/landing.png");
   background-color: transparent;
 }
